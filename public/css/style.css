@@ -1,0 +1,75 @@
+body.loginpage {
+    background-color: rgb(218, 243, 217);
+  }
+  
+  .main-container {
+    background-color: rgb(200, 244, 252);
+  }
+  
+  .navbar {
+    margin-bottom: 40px;
+    border-radius: 0;
+  }
+  
+   .focim {
+    margin-bottom: 0;
+  }
+  
+  a.logo-link {
+    padding:10px;
+    background-color: transparent;
+  }
+  
+  img.img-responsive{
+    width:150px;
+    height:100px;
+    border:2px #b8ee26 solid;
+    border-radius:5px;
+    padding:10px;
+  }
+  
+  spinner{
+      border-top: 50px solid #0A5BC4;
+      border-left: 50px solid #00A600;
+      border-right: 50px solid #DC572E;
+      border-bottom: 50px solid #BF1E4B;
+      height:0;
+      width:0;
+      border-radius: 50px;
+      -webkit-animation: spin 1s infinite linear;
+      -moz-animation: spin 1s infinite linear;
+      animation: spin 1s infinite linear;
+      margin-right:10px;
+      display:inline-block;
+      position: relative;
+      left: 50%;
+  }
+  spinner:last-child{
+      margin:0;
+  }
+  
+  @keyframes spin{
+      100%{
+          -webkit-transform:rotate(360deg);
+          transform:rotate(360deg);
+      }
+  }
+  
+  @-webkit-keyframes spin{
+      100%{
+          -webkit-transform:rotate(360deg);
+          transform:rotate(360deg);
+      }
+  }
+  
+  @-moz-keyframes spin{
+      100%{
+          -webkit-transform:rotate(360deg);
+          transform:rotate(360deg);
+      }
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
